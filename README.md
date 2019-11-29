@@ -1,1 +1,6 @@
 # Orbit-Determination
+
+The summer of 2016, I was selected to participate in the Summer Science Program at the New Mexico Institute of Mining and Technology. At this program, I conducted research on a near earth asteroid, and wrote extensive Python code to perform orbit determination.
+
+The primary objective in this project was to calculate the orbit of the asteroid 2000 VJ61 by utilizing the Method of Gauss. The orbital elements include the semi-major axis of the orbit, the eccentricity of the ellipse, the inclination with respect to the ecliptic, the longitude of the ascending node, the argument of perihelion, and the true anomaly. To collect the data required to perform this method of orbit determination, our team took weekly images of the asteroid at Etscorn Observatory with a 14-inch Schmidt-Cassegrain telescope. These images were then processed through LSPR code written by each team
+member to obtain the right-ascension and declination for each set of images. The numerous sets of data for each successful observation were then passed into Python code written by each team member that employed the Method of Gauss. The elements were then corrected using differential correction. After examining our results and comparing them to values calculated by JPL, we can conclude that our orbit determination was successful in returning reasonable orbital elements.
